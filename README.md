@@ -22,36 +22,28 @@
 
 1. **填写姓名学号**：运行 App 后进入“个人信息”Tab，填写姓名和学号并保存。顶部标题会自动变成“姓名+学号”，满足提交要求 (1)。
    - 若想改默认标题，编辑 `app/src/main/res/values/strings.xml` 中的 `app_name`。
-2. **填写 Gitee 地址**：打开同目录的 `实验六_多Fragment应用_实验报告.docx`，把封面“Gitee 仓库地址”占位文字替换为你的真实地址。
+2. **仓库地址**：GitHub 仓库已建好并推送，地址为 https://github.com/1xmxl/MultiFragmentApp_GongTao_2024110509 ，报告封面“Gitee网址”处可填写此地址。
 3. **修改应用标识（可选）**：把 `app/build.gradle.kts` 中 `applicationId` 的示例部分改成自己的学号，避免与同学安装包冲突。
 
-## 三、Gitee 分支与推送
+## 三、GitHub 仓库与分支
 
-本仓库已按实验要求建好三个分支：
+仓库地址：https://github.com/1xmxl/MultiFragmentApp_GongTao_2024110509
+
+仓库中已按实验要求建好三个分支：
 
 - `Main`：基础工程
 - `Dev`：开发分支
-- `Frag`：**本次作业最终代码**（当前工作分支）
+- `Frag`：**本次作业最终代码**（默认分支）
 
-在 Android Studio 中连上你的 Gitee 账号后，执行：
+仓库已完成推送。如需再次推送，在 Android Studio 中连上 GitHub 账号后执行：
 
 ```bash
-# 1）若 Gitee 上已有实验四/五的仓库，先克隆或添加远程：
-git remote add origin https://gitee.com/<你的用户名>/<实验四或五的仓库名>.git
-
-# 2）推送三个分支（保持与实验四/五同一地址，只是分支不同）
 git push origin Main
-git push origin Dev
-git push origin Frag
-
-# 3）若首次推送 Main 被拒绝（远程已有 Main），改用：
-git push origin Main:Main --force-with-lease   # 仅在确认要覆盖时使用
-# 或者只推送 Dev 和 Frag：
 git push origin Dev
 git push origin Frag
 ```
 
-推送后在 Gitee 仓库的“分支”页面应能看到 `Main`、`Dev`、`Frag` 三个分支；在代码页面切换到 `Frag` 分支即可看到本次作业源码。
+在 GitHub 仓库的 Branches 页面可以看到 `Main`、`Dev`、`Frag` 三个分支；切换到 `Frag` 分支即可看到本次作业源码。
 
 ## 四、截图与实验报告
 
