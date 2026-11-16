@@ -48,7 +48,7 @@ class ProfileFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // 恢复历史信息
+        // 恢复历史信息；首次运行时预填本人的姓名学号
         val profile = FileStorage.load<Profile>(requireContext(), FILE_PROFILE)
         if (profile != null) {
             etName.setText(profile.name)
@@ -56,6 +56,9 @@ class ProfileFragment : Fragment() {
             etMajor.setText(profile.major)
             etPhone.setText(profile.phone)
             tvStatus.text = getString(R.string.restored_hint)
+        } else {
+            etName.setText(R.string.default_name)
+            etStudentId.setText(R.string.default_student_id)
         }
         renderHistory()
 

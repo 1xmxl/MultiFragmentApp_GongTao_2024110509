@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 提交要求：APP 标题须为“姓名+学号”。填写姓名学号后程序会自动显示“姓名+学号”。 -->
-    <string name="app_name">多Fragment应用</string>
+    <!-- 提交要求：APP 标题为“姓名+学号” -->
+    <string name="app_name">龚涛2024110509</string>
+    <!-- 个人信息页的默认姓名学号（与 app_name 保持一致） -->
+    <string name="default_name">龚涛</string>
+    <string name="default_student_id">2024110509</string>
 
     <string name="tab_profile">个人信息</string>
     <string name="tab_game2">2张牌游戏</string>
