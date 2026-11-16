@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 提交要求：APP 标题须为“姓名+学号”。填写姓名学号后程序会自动显示“姓名+学号”。 -->
+    <string name="app_name">多Fragment应用</string>
+
+    <string name="tab_profile">个人信息</string>
+    <string name="tab_game2">2张牌游戏</string>
+    <string name="tab_game3">3张牌游戏</string>
+
+    <string name="profile_title">个人信息（序列化存储）</string>
+    <string name="label_name">姓名：</string>
+    <string name="hint_name">请输入姓名</string>
+    <string name="label_student_id">学号：</string>
+    <string name="hint_student_id">请输入学号</string>
+    <string name="label_major">专业：</string>
+    <string name="hint_major">请输入专业</string>
+    <string name="label_phone">电话：</string>
+    <string name="hint_phone">请输入电话</string>
+    <string name="save_profile">保存个人信息</string>
+    <string name="restored_hint">已从本地文件恢复上次填写的个人信息</string>
+    <string name="profile_history_title">个人信息保存历史</string>
+
+    <string name="game2_title">2 张牌翻牌游戏</string>
+    <string name="game3_title">3 张牌翻牌游戏</string>
+    <string name="new_game">重新开局</string>
+    <string name="new_game_hint">已重新发牌，祝你好运！</string>
+    <string name="game_history_title">游戏操作历史</string>
+    <string name="record_new_game">重新开局</string>
+
+    <string name="no_history">暂无历史记录</string>
+</resources>
